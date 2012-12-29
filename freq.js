@@ -35,7 +35,7 @@
         var hist = {};
         words.forEach(function (word) {
             if (!_.has(hist, word)) {
-                hist[word] = 1;
+                hist[word] = 0;
             }
 
             hist[word] += 1;
